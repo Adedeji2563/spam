@@ -40,7 +40,7 @@ async function connectToWhatsapp() {
     } = await useMultiFileAuthState("auth");
     const sock = makeWASocket({
         printQRInTerminal: !pairingCode,
-        browser: pairingCode ? ["Firefox (Linux)", "", ""] : ["Spmbot", "Firefox", "1.0.0"],
+        browser: pairingCode ? ["Firefox (Linux)", "", ""] : ["Spambot", "Firefox", "1.0.0"],
         auth: state,
         logger: Pino({
             level: "silent"
