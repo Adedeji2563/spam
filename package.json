@@ -1,9 +1,9 @@
 {
-  "name": "spc-whatsapp",
+  "name": "Spambot",
   "version": "1.0.0",
-  "main": "spcwa.js",
+  "main": "spam.js",
   "scripts": {
-    "start": "node spcwa.js --spamcode"
+    "start": "node spam.js --spamcode"
   },
   "keywords": [],
   "author": "",
