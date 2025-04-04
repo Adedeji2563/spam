@@ -6,7 +6,7 @@ const {
 const Pino = require("pino");
 const {
     icon
-} = require("./driyasz.js");
+} = require("./logo.js");
 const clear = require("clear-console");
 const readline = require("readline");
 
